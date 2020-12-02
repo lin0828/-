@@ -1,0 +1,99 @@
+body{
+        
+    box-sizing: border-box;
+}
+
+.topbar,
+.header .cont .logo,
+.header .cont .search,
+.header .cont .nav,
+.seckill
+{
+    display: none;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    width: 100%;
+}
+
+.header .cont .phone{
+    font-size: 0.5rem;
+    display: flex;
+    justify-content:space-between;
+    height:3rem;
+    line-height: 3rem;
+    background-color: #f2f2f2;
+    padding: 0 10px;
+}
+.header .cont .phone div{
+    color: #646464;
+}
+
+.phone-nav{
+    display: flex;
+    padding:0.2rem;
+    border-bottom: 0.3rem #d0d0d0 solid;
+}
+.phone-nav a{
+    flex: 1;
+    text-align: center;
+}
+.phone-nav a .tiem{
+    font-size: 1.2rem;
+}
+.phone-nav a .text{
+    font-size: 0.4rem;
+}
+.phone-title{
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem 1.1rem;
+    border-bottom: 0.1rem #d0d0d0 solid;
+}
+.title-item{
+    display: flex;
+    justify-content: center;
+}
+.phone-goods{
+    display: flex;
+}
+.phone-goods ul{
+    width: 100%;
+    display: flex;
+}
+.phone-goods li{
+    background-color: antiquewhite;
+    flex:1;
+    /* justify-content:space-between; */
+    display: flex;
+}
+.phone-goods li .logo{
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    background-color: #fff;
+}
+.phone-goods li .logo img{
+    height: 100%;
+    width: auto;
+    margin: 0;
+}
+.phone-goods li .info{
+    margin:0.3rem 0 0 1rem;
+}
+.phone-goods li .info .name{
+    color: #000;
+    font-size: 1rem;
+}
+.phone-goods li .info .tips{
+    color: #a9a9a9;
+    font-size: 0.5rem;
+}
+.phone-goods li .info .price{
+    color: #ff4400;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+}
